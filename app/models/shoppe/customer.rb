@@ -1,3 +1,5 @@
+require "globalize"
+
 module Shoppe
   class Customer < ActiveRecord::Base
 
