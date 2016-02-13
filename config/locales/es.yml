@@ -682,6 +682,40 @@ es:
       no_localisations: Ninguna traducción a mostrar.
       delete_confirmation: ¿Seguro?
 
+    customers:
+          customers: Clientes
+          new_customer: Nuevo Cliente
+          search_customer: Buscar Cliente
+          name: Nombre
+          company: Compañia
+          email: E-Mail
+          phone: telefono
+          mobile_phone: Celular
+          no_customers: nohay clientes que ver.
+          search: Buscar
+          first_or_last_name: nombre o apellido
+          back_to_customers_list: Regresar a lista de clientes
+          new_address: Nueva Dirección
+          edit: Editar
+          customer_information: Información del Cliente
+          cancel: Cancelar
+          first_name: Nombre
+          last_name: Apellido
+          delete: Borrar
+          save: Guardar
+          creating_customer: Creando cliente...
+          updating_customer: Actulizando cliente...
+          delete_confirmation: ¿Está seguro de que desea remover el cliente?
+          type: Tipo
+          default: Defecto
+          address: Dirección
+          no_addresses: No hay dirección que ver.
+          addresses: Direcciones
+          adresse: Dirección
+          created_successfully: El usuario se ha creado exitosamente.
+          updated_successfully: El usuario se ha actualizado exitosamente.
+          deleted_successfully: El usuario se ha borrado exitosamente.
+
     navigation:
       admin_primary:
         customers: Clientes
