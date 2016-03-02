@@ -43,7 +43,7 @@ module Shoppe
         self.order_items.each(&:confirm!)
 
         # Send an email to the customer
-        deliver_received_order_email
+        # deliver_received_order_email
       end
 
       # We're all good.
@@ -60,7 +60,7 @@ module Shoppe
         self.status = 'accepted'
         self.save!
         self.order_items.each(&:accept!)
-        deliver_accepted_order_email
+        # deliver_accepted_order_email
       end
     end
 
@@ -74,7 +74,7 @@ module Shoppe
         self.status = 'rejected'
         self.save!
         self.order_items.each(&:reject!)
-        deliver_rejected_order_email
+        # deliver_rejected_order_email
       end
     end
 
